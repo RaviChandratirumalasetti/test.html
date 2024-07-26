@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+<title> Country Flag</title>
+<style>
+  header { font-size:30*px;
+        font-weight:bold;
+        position: absolute;
+        top: 0*px;
+        left: 830*px;}
+svg{ position:absolute;
+    top :120*px;
+    left: 600*px;
+    border : 5*px solid black}
+</style>
+<header >Indian Flag</header>
+<script src="https://d3js.org/d3.v7.js"></script>
+</head>
+<body>
+        <svg  height="700"  width="600"  >
+        // rectangle
+        <rect height="450" width="20" y="250" x="150" style="border: fill black" />
+        //flag top box
+        <rect height="50" width="250" y="250" x="170" style="fill : rgb(255, 115, 0)" ></rect>
+        //flag middle box
+        <rect height="50" width="250" y="300" x="170" style="fill : white" ></rect>
+        <circle cx="290" cy="325" r="25" fill=" white"  stroke=" blue"></circle>
+        <line x1="290" y1="325" x2="315"  y2="325" stroke="blue"/>
+        <line x1="290" y1="325" x2="265"  y2="325" stroke="blue"/>
+        <line x1="290" y1="325" x2="290"  y2="300" stroke="blue"/>
+        <line x1="290" y1="350" x2="290"  y2="300" stroke="blue"/>
+        <rect height="50" width="250" y="350" x="170" style="fill : rgb(3, 109, 29)" ></rect>
+    </svg>
+</body>
